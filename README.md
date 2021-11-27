@@ -45,3 +45,18 @@ The experiment code for running the study is available in the *ketaconf/expe* su
 
 **script_symptomscores.m** -- Analyze symptom scores and ketamine plasma concentration for KETACONF study. <br />
 *This script requires individual the anonymized symptom scores datafile to run.*
+
+### Contents of *ketaconf/expe* subfolder
+
+**KETACONF_runner.m** Runner script for launching the KETACONF experiment. <br />
+This is a runner script for launching the KETACONF experiment.
+
+**KETACONF_run_expe.m** Run KETACONF experiment. <br />
+This is the main function for running the KETACONF experiment.
+
+**KETACONF_gen_expe.m** Generate KETACONF experiment. <br />
+This function is called by the main function that runs the experiment.
+
+The *expe/Documents* subfolder contains the instructions for the KETACONF experiment, written in French.
+
+The *expe/Toolboxes* subfolder contains additional low-level functions that are used to run the KETACONF experiment (input-output functions that build on core Psychtoolbox-3 functions, random-number generation functions, psychophysical staircasing functions, and stimulus generation and presentation functions).
