@@ -1,5 +1,7 @@
 ### Contents of *ketaconf/expe* subfolder
 
+This subfolder contains the core functions and scripts used run the KETACONF experiment.
+
 **KETACONF_runner.m** -- Runner script for launching the KETACONF experiment. <br />
 This is a runner script for launching the KETACONF experiment.
 
